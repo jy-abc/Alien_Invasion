@@ -36,6 +36,11 @@ Survive more waves and achieve a higher score to win!
 ```bash
 python -m pip install pygame
 ```
+or use PyPI mirror
+
+```bash
+python3 -m pip install -i https://mirrors.aliyun.com/pypi/simple/ pygame
+```
 
 2. Launch the game
 
