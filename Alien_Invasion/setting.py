@@ -38,7 +38,7 @@ class Settings:
         self.shield_color=240,255,255
         
         #音乐设置
-        self.sound_dir=r"D:\app\vscode\Alien_Invasion\sound"
+        self.sound_dir=r"sound"
         self.bomb=os.path.join(self.sound_dir,"bomb.wav")
         self.shoot=os.path.join(self.sound_dir,"shoot.wav")
         
@@ -64,3 +64,4 @@ class Settings:
         self.alien_points=int(self.alien_points*self.score_scale)
 
         print(self.alien_points)
+
