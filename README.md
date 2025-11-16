@@ -40,6 +40,7 @@ python -m pip install pygame
 2. Launch the game
 
 ```bash
+cd Alien_Invasion
 python main.py
 ```
 
