@@ -26,7 +26,7 @@ class Settings:
         #提分速度
         self.score_scale=1.5
         
-        #外星人子弹设置
+        #外星人炸弹设置
         self.alien_bullet_width=10
         self.alien_bullet_height=15
         self.alien_bullet_color=220,20,60
@@ -62,4 +62,5 @@ class Settings:
         self.alien_bullet_speed_factor*=self.speedup_scale
         
         self.alien_points=int(self.alien_points*self.score_scale)
+
         print(self.alien_points)
