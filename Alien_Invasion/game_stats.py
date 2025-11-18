@@ -4,7 +4,7 @@ import json
 class GameStats:
     '''跟踪游戏的统计信息'''    
     def __init__(self,ai_game):
-        self.high_score_path=r"Alien_Invasion\high_score_path.json"
+        self.high_score_path=r"high_score_path.json"
         self.settings=ai_game.settings
         self.high_score=self._get_high_score()
         self.reset_stats()
@@ -28,3 +28,4 @@ class GameStats:
         with open(self.high_score_path,"w") as f:
 
             json.dump(self.high_score,f)
+
