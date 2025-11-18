@@ -10,7 +10,7 @@ class Ship(Sprite):
         self.screen=ai_game.screen
         self.settings=ai_game.settings
         
-        self.image=pygame.image.load(r"Alien_Invasion\ship_photo.bmp")
+        self.image=pygame.image.load(r"ship_photo.bmp")
         self.rect=self.image.get_rect() #获得图像矩形
         self.screen_rect=ai_game.screen.get_rect()  #获得屏幕矩形
         
@@ -52,4 +52,5 @@ class Ship(Sprite):
         self.y=float(self.rect.y)
 
         
+
 
