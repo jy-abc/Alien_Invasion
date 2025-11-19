@@ -18,7 +18,7 @@ class Shield:
         self.y=float(self.rect.y)
         
     def update(self):
-        '''根据移动标志调整飞船位置'''
+        '''根据移动标志调整盾牌位置'''
         if self.ship.moving_right and self.ship.rect.right<self.ship.screen_rect.right:
             self.x+=self.settings.ship_speed_factor
         if self.ship.moving_left and self.ship.rect.left>0:
@@ -42,4 +42,5 @@ class Shield:
         self.x=float(self.rect.x)
         self.y=float(self.rect.y)
         
+
         
