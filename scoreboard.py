@@ -33,10 +33,6 @@ class Scoreboard:
         self.score_rect.right=self.screen_rect.right-20
         self.score_rect.top=20
         
-    def show_score(self):
-        '''在屏幕上显示得分'''
-        self.screen.blit(self.score_image,self.score_rect)
-        
     def prep_high_score(self):
         '''将最高分渲染为图像'''
         high_score=round(self.stats.high_score,-1)
@@ -80,4 +76,5 @@ class Scoreboard:
             ship.rect.y=10
             self.ships.add(ship)
             
+
         
